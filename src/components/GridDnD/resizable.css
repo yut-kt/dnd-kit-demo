@@ -1,0 +1,26 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ccc;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+.box .text {
+  text-align: center;
+}
+
+.hover-handles .react-resizable-handle {
+  display: none;
+}
+.hover-handles:hover .react-resizable-handle {
+  display: block;
+}
+.absolutely-positioned {
+  position: absolute !important;
+}

@@ -1,4 +1,3 @@
-"use client";
 import { useDraggable } from "@dnd-kit/core";
 
 interface Props extends ComponentProps {
